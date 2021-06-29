@@ -1,0 +1,277 @@
+
+        *{margin: 0;
+        padding: 0;
+        }
+        
+
+        .navbar{
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(images/background.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .navbar li a{color: white;}
+        .navbar h1{ padding: 50px;
+        font-weight: bolder;}
+
+        .content ul {display: flex;
+        justify-content: space-between;
+        padding: 50px;}
+
+        .content ul li{list-style-type: none;}
+        .content ul  li a {text-decoration: none;
+        padding-left: 20px;
+        font-weight:900}
+        .content ul   li a:hover{color: greenyellow;}
+        .content ul li a:active{color: greenyellow;}
+
+        .text-box{
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            text-align: center;
+             }
+             
+        .text-box  h1 {padding:2%;}
+        .text-box p{padding-bottom: 20px;}
+       
+
+       .button{display: flex;
+        justify-content: center;
+        }
+
+        .button1{padding-right: 20px;
+        }
+        .btn1{padding: 10px 25px 10px 25px;
+        border-radius: 15px;
+        border: 2px solid white;}
+        .btn1:hover{background-color: black;
+        color: white;}
+
+        .btn2{padding: 10px 25px 10px 25px;
+        border-radius: 15px;
+        color: white;
+        background-color: #a3c962;
+        border: 2px solid white;}
+        .btn2:hover{background-color: black;}
+
+
+/* !st scrolled phase page */
+        .content-one{            
+            text-align: center;
+            height: 20vh;
+            width: 100%;
+            padding-top: 40px;
+        }
+        .content-one h3{color: #a3c962;}
+        .standing{padding-top: 10px;
+        padding-bottom: 25px;}
+        .lorem{
+            
+            text-align: center;
+        }
+
+.photo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.photo h3{color: #a3c962;
+padding-bottom: 10px;}
+.photo img{padding-left: 250px;
+padding-right: 100px;}
+
+.photo h2{padding-bottom: 25px;
+    
+}
+.one-content{
+  width: 60vh;
+}
+
+/* CIrcleeeeeeeeeeee */
+.circles{
+  display: flex;
+}
+
+/* circle oneeeeeee */
+
+.circle-wrap .circle-wrap{
+  padding-right: 20px;
+}
+
+.circle-wrap {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background: #e6e2e7;
+    border-radius: 50%;
+  }
+
+
+
+  .circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+
+
+  .circle-wrap .circle .mask .fill {
+    clip: rect(0px, 75px, 180px, 0px);
+    background-color: #9e00b1;
+  }
+  .circle-wrap .circle .mask.full,
+  .circle-wrap .circle .fill {
+    transform: rotate(126deg);
+  }
+   
+
+
+
+  .circle-wrap .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+
+
+  /* circle twooooo */
+
+  .circle-wrap2 {
+    margin: 50px auto;
+    width: 150px;
+    height: 150px;
+    background: #e6e2e7;
+    border-radius: 50%;
+  }
+
+
+
+  .circle-wrap2 .circle .mask,
+.circle-wrap2 .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap2 .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+
+
+  .circle-wrap2 .circle .mask .fill {
+    clip: rect(0px, 75px, 180px, 0px);
+    background-color: #9e00b1;
+  }
+  .circle-wrap2 .circle .mask.full,
+  .circle-wrap2 .circle .fill {
+    transform: rotate(126deg);
+  }
+   
+
+
+
+  .circle-wrap2 .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+
+/* circle threee */
+.circle-wrap3 {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+
+
+.circle-wrap3 .circle .mask,
+.circle-wrap3 .circle .fill {
+width: 150px;
+height: 150px;
+position: absolute;
+border-radius: 50%;
+}
+
+.circle-wrap3 .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+
+.circle-wrap3 .circle .mask .fill {
+  clip: rect(0px, 75px, 180px, 0px);
+  background-color: #9e00b1;
+}
+.circle-wrap3 .circle .mask.full,
+.circle-wrap3 .circle .fill {
+  transform: rotate(126deg);
+}
+ 
+
+
+
+.circle-wrap3 .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+  /*  2nd scolled phase page*/
+  
+  .content-two{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/forest.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
